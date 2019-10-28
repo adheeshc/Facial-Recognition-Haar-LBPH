@@ -20,11 +20,6 @@ Basic facial recognition implemented using Haar Cascades and Local Binary Patter
 
 [init.py](https://github.com/adheeshc/Facial-Recognition-Haar-LBPH/blob/master/init.py) - real time face recognition
 
-## **RUN INSTRUCTIONS**
-
-- Make sure all dependancies are met
-- Comment/Uncomment as reqd
-
 ## **CREATING DATASETS**
 Create 2 directories - Train and Test
 - In Test folder, have around 10 images of the images you want to recognize (eg. images of you) called positive set and 10 images to check for misclassification (eg. images of NOT you) called negative set
@@ -32,4 +27,16 @@ Create 2 directories - Train and Test
   - In directory 0, keep all negative set images (NOT you) and in directory 1 keep all positive set images (YOU)
   
  Make sure you have around a 100 or so images for good results
+
+## **RUN INSTRUCTIONS**
+
+- Make sure all dependancies are met
+- Comment/Uncomment as reqd
+- Make sure you have created the dataset maintaining directory structure as reqd
+
+- Run [test.py](https://github.com/adheeshc/Facial-Recognition-Haar-LBPH/blob/master/test.py) to train your model on the images you used to create your train and test dataset. 
+
+- Run [init.py](https://github.com/adheeshc/Facial-Recognition-Haar-LBPH/blob/master/init.py) after you save the model for real time face recognition
+
+
 
